@@ -1,0 +1,54 @@
+🚀 MongoDB Hero Integration - Git Commands to Run
+
+Copy and paste these commands one by one in your terminal:
+
+1. Initialize git repository:
+git init
+
+2. Add remote repository:
+git remote add origin https://github.com/ahmadiiiiiiii198/test_pizzalab.git
+
+3. Add all files:
+git add .
+
+4. Create commit:
+git commit -m "feat: MongoDB Hero Section Integration
+
+✅ Complete migration from Supabase to MongoDB for hero section
+✅ Added MongoDB API server with Express.js  
+✅ Created sync system for frontend data access
+✅ Implemented caching and fallback strategies
+✅ Added comprehensive testing tools
+
+Features:
+- MongoDB Atlas integration
+- Express API server (port 3001)
+- Frontend JSON sync system
+- localStorage caching
+- Multiple fallback strategies
+- Test page for validation
+
+Files added:
+- api-server.js - Express MongoDB API
+- setup-hero-mongodb.js - MongoDB setup script
+- sync-hero-to-frontend.js - Data sync script
+- pizzalab/src/services/mongoHeroService.ts - MongoDB service
+- pizzalab/src/hooks/use-mongo-hero.tsx - MongoDB hook
+- pizzalab/public/hero-content.json - Synced data
+- pizzalab/public/test-mongo-hero.html - Test page
+
+Files modified:
+- pizzalab/src/components/Hero.tsx - Updated to use MongoDB
+- pizzalab/package.json - Added sync scripts"
+
+5. Set main branch and push:
+git branch -M main
+git push -u origin main
+
+📋 Summary of Changes:
+✅ Hero section now uses MongoDB instead of Supabase
+✅ Complete API server for MongoDB operations  
+✅ Sync system for frontend data access
+✅ Comprehensive testing and fallback strategies
+
+🔗 Repository: https://github.com/ahmadiiiiiiii198/test_pizzalab.git
